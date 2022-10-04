@@ -1,0 +1,43 @@
+body{font-family: Poppins;}
+.banner{background: url("../images/pexels-craig-adderley-1563356.jpg") no-repeat; width:100%;height: 100%;}
+.file-content{  padding: 5% 0;
+    margin: 60px auto 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 45%;
+   
+    }
+.file-content h2{font-size: 20px; color: #505050;padding-bottom: 10px;}
+.file-content p,.file-content a{font-size: 16px; color: #505050;padding: 5px 0;}
+.button{color:  #505050;}
+.button button{color:  #505050}
+.button{margin: 0 auto;text-align: center;margin-bottom: 10%;}
+.print-lft h3{font-size: 18px; color: #000;}
+.print-lft h4,.img-detail h4{font-size: 18px; color: #000;padding: 20px 0 0px}
+.right-cnt p,.drag-img p,.img-detail p{font-size: 14px; color: #000}
+.img-detail button{color: #fff;font-size: 12px;width:100px}
+.print-lft p,.dimention p{font-size: 18px; color: #000;padding: 0;margin: 0 0 10px;}
+.units label,.print label,.dimention label{font-size: 12px; color: #000;}
+.dimention .d-width input{width: 35%;
+    border-radius: 5px;
+    border: 1px solid #7c7c7c;
+}
+.contactform{background-color: #cdcdcd;padding: 20px 0}
+.print-page{background-color: #fff;padding-top: 20px ;padding-bottom:  60px;}
+.smallimg-items {padding: 5% 0}
+.smallimg-items .card{height: 100px;}
+.img-item img,.smallimg-items img{width:100%}
+.upload-bx{border: 3px dashed #cdcdcd;
+    padding: 40%;
+}
+
+.type select{width:80%}
+.type select{margin-bottom: 20px;}
+.print{border: 1px solid #000;padding:3px 5px;margin: 0 0 30px;width:98%}
+.info,.drag-img{padding:0 30px;}
+
+
+@media (max-width: 760px) {
+    .file-content{width:80%;}
+    }
